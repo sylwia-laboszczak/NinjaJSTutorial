@@ -1,4 +1,8 @@
-//the first alert 
-alert("HELLO WORLD!");
-//the second alert 
-alert("hi again");
+var youLikeMeat = true;
+if (youLikeMeat){
+
+document.write("here is the meaty menu....");
+
+
+
+}
