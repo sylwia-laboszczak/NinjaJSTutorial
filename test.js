@@ -1,6 +1,3 @@
-var a = 6;
-var b = 5;
-// double negative 
-if (!isNaN(a)) {
-    console.log("meaning of life is " + (a * b));
-}
+var str = "hello world";
+var str2 = str.slice(2, 9);
+var str3 = str.slice(2);
