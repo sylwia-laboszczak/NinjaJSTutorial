@@ -1,15 +1,6 @@
-var average = 0
-function getAverage(a, b) {
-
-    average = (a + b) / 2;
-    console.log(average);
-    return average;
-
-
-
-
-} var myResult = getAverage(7, 11); //global variable
-function logResult() {
-    console.log(" the averege is " + myResult + "inside the function")
+var a = 6;
+var b = 5;
+// double negative 
+if (!isNaN(a)) {
+    console.log("meaning of life is " + (a * b));
 }
-logResult();
